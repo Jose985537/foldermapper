@@ -1,0 +1,23 @@
+# Folder Mapper - Dependencias
+# Este archivo contiene las dependencias necesarias para ejecutar la aplicación.
+
+# Versión mínima de Python requerida
+python>=3.6
+
+# Dependencias principales
+# -----------------------
+# - tkinter: Interfaz gráfica (viene incluido en Python estándar)
+# - os: Manejo de rutas y sistema de archivos (viene incluido en Python estándar)
+# - threading: Para operaciones no bloqueantes (viene incluido en Python estándar)
+# - datetime: Para manejo de fechas (viene incluido en Python estándar)
+
+# Dependencias adicionales
+# -----------------------
+# - Pillow: Mejora el renderizado de fuentes en algunos sistemas operativos
+Pillow>=9.0.0
+
+# Dependencias para desarrollo (opcional)
+# --------------------------------------
+# - pyinstaller: Para generar el ejecutable .exe
+#   Comando para generar el .exe: pyinstaller --onefile --windowed folder_mapper_final.py
+pyinstaller>=5.0.0
